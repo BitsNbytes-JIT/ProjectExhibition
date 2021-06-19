@@ -921,7 +921,7 @@ h3 {
 }
 
 .about_area {
-	padding-top: 200px;
+	padding-top: 100px;
 	padding-bottom: 100px;
 	position: relative
 }
@@ -939,7 +939,6 @@ h3 {
 }
 
 .about_clg {
-	padding-top: 200px;
 	padding-bottom: 100px;
 	position: relative
 }
@@ -1186,7 +1185,8 @@ h3 {
 
 .brand_area {
 	padding-top: 120px;
-	padding-bottom: 100px
+	padding-bottom: 100px;
+	text-align: center;
 }
 
 .brand_area.dec_padding {
@@ -1207,7 +1207,7 @@ h3 {
 .brand_area .brand_active .single_brand img {
 	width: auto;
 	display: inline-block;
-	filter: contrast(0);
+	/* filter: contrast(0); */
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-o-transition: .3s;
