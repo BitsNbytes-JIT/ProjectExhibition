@@ -33,6 +33,7 @@ body {
 
 #bnbLogo{
     width: 5vw;
+	margin-top: 1vw;
 }
 
 a,
@@ -1149,7 +1150,7 @@ h3 {
 }
 
 .resister_bg_1 {
-	background-image: url(https://preview.colorlib.com/theme/wemeet/img/banner/xresister.png.pagespeed.ic.2ixKfNZBET.png)
+	background-image: url(./img/regbanner.png)
 }
 
 .resister_book {
@@ -1488,8 +1489,7 @@ h3 {
 }
 
 .footer .footer_top {
-	padding-top: 145px;
-	padding-bottom: 129px
+	padding-top: 2vw;
 }
 
 @media (max-width:767px) {
