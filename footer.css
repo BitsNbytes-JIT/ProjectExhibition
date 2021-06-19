@@ -174,7 +174,7 @@ sup {
 }
 
 a {
-	color: #007bff;
+	color: #000000;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects
@@ -5378,5 +5378,5 @@ img.mfp-img {
 
 
 .insta{
-    background-image: url('./instagram.png');
+    width:1vw;
 }
