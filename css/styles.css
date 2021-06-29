@@ -640,7 +640,7 @@ h3 {
 }
 
 .slider_bg_1 {
-	background-image: url(./img/banner.png)
+	background-image: url(../img/banner.png)
 }
 
 .slider_area {
@@ -1150,7 +1150,7 @@ h3 {
 }
 
 .resister_bg_1 {
-	background-image: url(./img/regbanner.png)
+	background-image: url(../img/regbanner.png)
 }
 
 .resister_book {
@@ -1471,7 +1471,7 @@ h3 {
 }
 
 .footer_bg_1 {
-	background-image: url(./img/footerbanner.png)
+	background-image: url(../img/footerbanner.png)
 }
 
 .footer {
