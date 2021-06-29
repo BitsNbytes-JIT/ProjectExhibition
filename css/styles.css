@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap);
+*{
+	box-sizing: border-box;
+}
+
+
 .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
 	background: #ff9600;
 	background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
@@ -33,6 +38,7 @@ body {
 
 #bnbLogo{
     width: 5vw;
+	margin-top: 1vw;
 }
 
 a,
@@ -639,7 +645,7 @@ h3 {
 }
 
 .slider_bg_1 {
-	background-image: url(./banner.png)
+	background-image: url(../img/banner.png)
 }
 
 .slider_area {
@@ -1149,14 +1155,14 @@ h3 {
 }
 
 .resister_bg_1 {
-	background-image: url(https://preview.colorlib.com/theme/wemeet/img/banner/xresister.png.pagespeed.ic.2ixKfNZBET.png)
+	background-image: url(../img/regbanner.png)
 }
 
 .resister_book {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	padding: 184px 0
+	padding: 50px 0
 }
 
 @media (max-width:767px) {
@@ -1184,7 +1190,6 @@ h3 {
 }
 
 .brand_area {
-	padding-top: 120px;
 	padding-bottom: 100px;
 	text-align: center;
 }
@@ -1198,14 +1203,25 @@ h3 {
 		padding: 40px 0
 	}
 }
+.antstack{
+	padding-top: 45px;
+	padding-right: 10px;
+	/* padding-left: 200px; */
+}
+
 
 .brand_area .brand_active .single_brand {
+	
 	text-align: center;
-	cursor: e-resize
+	cursor: e-resize;
+	/* padding-left: 50px; */
 }
 
 .brand_area .brand_active .single_brand img {
+	/* margin-left: auto;
+	margin-right: auto; */
 	width: auto;
+	text-align: center;
 	display: inline-block;
 	/* filter: contrast(0); */
 	-webkit-transition: .3s;
@@ -1471,7 +1487,7 @@ h3 {
 }
 
 .footer_bg_1 {
-	background-image: url(https://preview.colorlib.com/theme/wemeet/img/banner/xfooter_bg_1.png.pagespeed.ic.kO4NCNkUB-.png)
+	background-image: url(../img/footerbanner.png)
 }
 
 .footer {
@@ -1489,8 +1505,7 @@ h3 {
 }
 
 .footer .footer_top {
-	padding-top: 145px;
-	padding-bottom: 129px
+	padding-top: 2vw;
 }
 
 @media (max-width:767px) {
