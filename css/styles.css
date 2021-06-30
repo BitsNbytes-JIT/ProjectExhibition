@@ -32,19 +32,26 @@ body {
 	
 }
 
-.img {
+/* .img {
 	max-width: 100%;
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-o-transition: .3s;
 	transition: .3s
-}
+}*/
 
-#bnbLogo{
+/* #bnbLogo{
     width: 5vw;
 	margin-top: 1vw;
+}  */
+#bnbLogo{
+	width: 10vh;
+	margin-top: 1vw;
 }
-
+/* .title_img{
+	text-align: center;
+	
+} */
 a,
 .button {
 	-webkit-transition: .3s;
