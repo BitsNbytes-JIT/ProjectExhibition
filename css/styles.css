@@ -1207,17 +1207,25 @@ h3 {
 		padding: 40px 0
 	}
 }
-.antstack{
+ .antstack{
 	padding-top: 50px;
-	padding-right: 10px;
-	/* padding-left: 200px; */
+	/* padding-right: 10px;
+	 padding-left: 200px;  */
 }
-.logos img{
+/* .logos img{
 	display: block;
-	margin-left: 140px;
-	
+	 margin-left: 140px;  
+	margin-block: 140px;
 
-}
+}  */
+/* @media screen and(max-width:480px){
+	.logos img{ */
+		/* margin-block: 140px; */
+		 /* margin-left: 140px; 
+		
+	}
+
+} */
 
 .brand_area .brand_active .single_brand {
 	justify-content: center;
@@ -1245,7 +1253,22 @@ h3 {
 .brand_area .brand_active .single_brand:hover img {
 	filter: contrast(1)
 }
+/* @media(min-width: 600px){
+	.logos{
+		text-align: center;
+	}
+} */
+@media screen and(min-width:767px){
+	.logos img{
+		/* margin-block: 140px; */
+		 margin-left: 140px; 
+		 justify-content: center;
+		 text-align: center;
+		 align-items: center;
+		
+	}
 
+}
 .faq_area {
 	padding-top: 100px;
 	padding-bottom: 100px
